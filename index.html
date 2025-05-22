@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thomaskuenneth.de</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      text-align: left;
+      gap: 2rem;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      flex-shrink: 0;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .name {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .role {
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.3rem;
+    }
+    .contact a {
+      color: #0077cc;
+      text-decoration: none;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="thomas.png" alt="Thomas Künneth" class="photo">
+    <div class="info">
+      <div class="name">Thomas K&uuml;nneth</div>
+      <div class="role">Softwareentwickler</div>
+      <div class="contact">
+        <a href="mailto:thomas@thomaskuenneth.de">thomas@thomaskuenneth.de</a>
+        <div style="display: flex; gap: 0.7rem; align-items: center; margin-top: 1.2rem;">
+          <a href="https://bsky.app/profile/tkuenneth.dev" target="_blank" rel="noopener noreferrer">Bluesky</a>
+          <span style="color: #bbb;">|</span>
+          <a href="https://www.linkedin.com/in/tkuenneth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span style="color: #bbb;">|</span>
+          <a href="https://dev.to/tkuenneth" target="_blank" rel="noopener noreferrer">dev.to</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
